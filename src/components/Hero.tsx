@@ -8,10 +8,10 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
             Hi, I'm{' '}
-            <span className="text-primary-600">Your Name</span>
+            <span className="text-primary-600">Juan Leon</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Web Developer & Creative Problem Solver
+            Software Developer & Creative Problem Solver
           </p>
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
             I build beautiful, functional, and user-friendly web experiences

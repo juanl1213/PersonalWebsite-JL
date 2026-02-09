@@ -28,7 +28,7 @@ const Navigation = ({ isScrolled }: NavigationProps) => {
             href="#home"
             className="text-xl md:text-2xl font-bold text-gray-900 hover:text-primary-600 transition-colors"
           >
-            Your Name
+            Juan Leon
           </a>
 
           {/* Desktop Navigation */}
