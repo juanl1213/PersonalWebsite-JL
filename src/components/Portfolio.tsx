@@ -12,30 +12,21 @@ const Portfolio = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Project One',
+      title: 'SyllabiQ',
       description:
-        'A modern web application built with React and TypeScript. Features include user authentication, real-time updates, and responsive design.',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+        'AI-powered survey platform that collects student feedback and generates syllabus-aware suggestions for instructors to improve their classes.',
+      technologies: ['React', 'scikit-learn', 'FastAPI', 'Python', 'Node.js'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/juanl1213/SyllabiQ',
     },
     {
       id: 2,
-      title: 'Project Two',
+      title: 'FanConnect',
       description:
-        'An e-commerce platform with a focus on user experience and performance. Includes payment integration and admin dashboard.',
-      technologies: ['Next.js', 'Node.js', 'MongoDB'],
+        'FanConnect is a social app that connects sports fans attending the same game or event, helping them find and meet others to sit with, socialize, and share the live match experience together.',
+      technologies: ['TypeScript', 'Axios', 'HTML/CSS'],
       liveUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      id: 3,
-      title: 'Project Three',
-      description:
-        'A portfolio website for a creative agency. Showcases their work with an elegant and minimalist design approach.',
-      technologies: ['Vue.js', 'GSAP', 'Sass'],
-      liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/juanl1213/FanConnect-ClassProject',
     },
   ]
 
@@ -80,16 +71,6 @@ const Portfolio = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  {project.liveUrl && (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-600 hover:text-primary-700 font-medium text-sm"
-                    >
-                      Live Demo →
-                    </a>
-                  )}
                   {project.githubUrl && (
                     <a
                       href={project.githubUrl}

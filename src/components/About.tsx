@@ -68,12 +68,13 @@ const About = () => {
 
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              Hi, I’m Juan Leon, a passionate software developer with a strong foundation in Java, JavaScript, Python, and C++.
-               I enjoy turning complex ideas into user-friendly applications and exploring new technologies to expand my skill set.
+              Hi, I’m Juan Leon, a software developer with a growing focus on information security and identity access management.
+              
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-            When I’m not coding, I love learning languages, diving into tech trends, and tackling new challenges that push me to grow.
-            This portfolio is a glimpse into the projects I’ve built, the problems I’ve solved, and the skills I’m continuously developing..
+              I enjoy turning complex ideas into user-friendly, secure applications and exploring new technologies across both software engineering
+              and cybersecurity. When I’m not coding, I love learning languages, diving into tech trends, and tackling new challenges that push me
+              to grow. This portfolio highlights projects where I combine development skills with a security-first mindset.
             </p>
             <div className="mt-12">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
@@ -103,7 +104,7 @@ const About = () => {
             </div>
             <div className="mt-12">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                Work Experience
+                Professional Experience
               </h3>
               <div className="space-y-6">
                 {workExperience.map((job, index) => (

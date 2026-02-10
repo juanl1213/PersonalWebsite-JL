@@ -153,7 +153,8 @@ const Contact = () => {
           <div className="mt-12 text-center">
             <p className="text-gray-600 mb-4">Or reach out directly:</p>
             <p className="text-gray-600 mb-4">Email: juanleon0731966@gmail.com</p>
-            <div className="flex justify-center gap-6">
+            <p className="text-blue-600 mb-4"><a href="https://www.linkedin.com/in/juan-leon-4348581b1/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            {/* <div className="flex justify-center gap-6">
               <a
                 href="mailto:your.email@example.com"
                 className="text-primary-600 hover:text-primary-700 font-medium"
@@ -175,8 +176,8 @@ const Contact = () => {
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
                 GitHub
-              </a>
-            </div>
+              </a> */}
+            
           </div>
         </div>
       </div>

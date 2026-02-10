@@ -11,11 +11,7 @@ const Hero = () => {
             <span className="text-primary-600">Juan Leon</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Software Developer & Creative Problem Solver
-          </p>
-          <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
-            I build beautiful, functional, and user-friendly web experiences
-            that make a difference.
+            Software Developer & Information Security Professional 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

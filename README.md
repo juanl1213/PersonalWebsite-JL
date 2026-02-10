@@ -33,12 +33,16 @@ A modern, responsive personal website built with React, TypeScript, and Tailwind
 npm install
 ```
 
-2. Start the development server:
+2. Set up EmailJS for the contact form (optional but recommended):
+   - See `EMAILJS_SETUP.md` for detailed instructions
+   - Create a `.env` file based on `.env.example` with your EmailJS credentials
+
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ### Building for Production
 
