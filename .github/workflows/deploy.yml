@@ -3,11 +3,15 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - branch2
+      - branch2  # Changed to branch2
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
